@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ganpati Traders | Trusted Supply Partner</title>
+    <title>Ganpati Traders | Kitchen Essentials</title>
     <meta
       name="description"
-      content="Ganpati Traders provides quality products, dependable supply, and trusted service for businesses and households."
+      content="Ganpati Traders offers kitchen choppers, microfiber towels, and essential household products for everyday needs."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,159 +17,244 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="site-header">
-      <div class="container nav-wrap">
-        <div class="brand">
-          <div class="brand-mark">G</div>
-          <div>
-            <span class="brand-name">Ganpati Traders</span>
-            <small>Trusted Supply Partner</small>
-          </div>
-        </div>
-        <nav class="main-nav" aria-label="Main navigation">
-          <a href="#about">About</a>
+    <header class="topbar">
+      <div class="container topbar-inner">
+        <span>Free shipping on orders above ₹999</span>
+        <div class="topbar-links">
           <a href="#products">Products</a>
-          <a href="#why-us">Why Us</a>
-          <a href="#contact">Contact</a>
-        </nav>
-        <a class="btn btn-primary" href="mailto:info@ganpatitraders.com">Get a Quote</a>
+          <a href="#offers">Offers</a>
+          <a href="mailto:info@ganpatitraders.com">Support</a>
+        </div>
       </div>
     </header>
 
-    <main>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <div class="brand" aria-label="Ganpati Traders home">
+          <div class="brand-mark">G</div>
+          <div>
+            <span class="brand-name">Ganpati Traders</span>
+            <small>Kitchen & Home Essentials</small>
+          </div>
+        </div>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#products">Products</a>
+          <a href="#categories">Categories</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="icon-btn" aria-label="Search">⌕</button>
+          <button class="icon-btn" aria-label="Cart">🛒</button>
+        </div>
+      </div>
+    </header>
+
+    <main id="home">
       <section class="hero">
         <div class="container hero-grid">
           <div class="hero-copy">
-            <p class="eyebrow">Quality • Trust • Service</p>
-            <h1>Reliable trading solutions for growing businesses.</h1>
-            <p class="lead">
-              Ganpati Traders helps customers source dependable products with
-              consistent quality, competitive pricing, and prompt service.
+            <span class="eyebrow">Smart home essentials</span>
+            <h1>Kitchen tools that make everyday living easier.</h1>
+            <p>
+              Discover reliable kitchen choppers, microfiber towels, and home-care products
+              designed for households, stores, and bulk buyers.
             </p>
             <div class="hero-actions">
-              <a class="btn btn-primary" href="mailto:info@ganpatitraders.com">Request a Quote</a>
-              <a class="btn btn-secondary" href="#products">Explore Products</a>
+              <a class="btn btn-primary" href="#products">Shop Now</a>
+              <a class="btn btn-secondary" href="mailto:info@ganpatitraders.com">Bulk Inquiry</a>
             </div>
-            <ul class="mini-stats" aria-label="Key business highlights">
-              <li><strong>Bulk Supply</strong><span>Ready for orders</span></li>
-              <li><strong>Fast Support</strong><span>Quick responses</span></li>
-              <li><strong>Trusted Service</strong><span>Long-term partnerships</span></li>
+            <ul class="hero-meta">
+              <li><strong>500+</strong><span>Happy buyers</span></li>
+              <li><strong>Fast</strong><span>Delivery support</span></li>
+              <li><strong>Trusted</strong><span>Quality products</span></li>
             </ul>
           </div>
 
-          <div class="hero-panel" aria-label="Company overview panel">
-            <div class="panel-card">
-              <p class="panel-label">Business Snapshot</p>
-              <h2>Delivering value with every order.</h2>
-              <div class="metric-row">
-                <div>
-                  <strong>100%</strong>
-                  <span>Customer focus</span>
-                </div>
-                <div>
-                  <strong>24/7</strong>
-                  <span>Support access</span>
-                </div>
-              </div>
-              <div class="service-list">
-                <span>Wholesale Supply</span>
-                <span>Business Support</span>
-                <span>Reliable Delivery</span>
-              </div>
+          <div class="hero-visual" aria-label="Featured product showcase">
+            <div class="product-spotlight">
+              <img
+                src="https://images.unsplash.com/photo-1585518419759-7fe2e0fbf8a6?auto=format&fit=crop&w=900&q=80"
+                alt="Kitchen chopper product"
+              />
+              <div class="floating-badge badge-top">Best Seller</div>
+              <div class="floating-badge badge-bottom">₹164 / unit</div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="partners-strip">
-        <div class="container strip-grid">
-          <span>Quality-first approach</span>
-          <span>Transparent pricing</span>
-          <span>Customer-first service</span>
-          <span>Dependable supply</span>
+      <section class="search-strip">
+        <div class="container search-box">
+          <span class="search-icon">⌕</span>
+          <input type="text" value="Search for products" aria-label="Search for products" />
+          <button class="cart-small" aria-label="Shopping cart">🛒</button>
+        </div>
+      </section>
+
+      <section id="products" class="section">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <span class="eyebrow dark">Featured products</span>
+              <h2>Popular kitchen and cleaning essentials</h2>
+            </div>
+            <a href="#contact" class="text-link">View all</a>
+          </div>
+
+          <div class="product-grid">
+            <article class="product-card">
+              <div class="product-image soft-yellow">
+                <img
+                  src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=800&q=80"
+                  alt="Microfiber washing cloth set"
+                />
+              </div>
+              <div class="product-body">
+                <div class="product-tag">Kitchen towels</div>
+                <h3>Set of 4 Pieces Microfiber Vehicle Washing Cloth</h3>
+                <div class="price-row">
+                  <span class="price">₹299</span>
+                  <span class="rating">★ 3.9</span>
+                </div>
+                <div class="product-actions">
+                  <button class="btn light-btn">Add to cart</button>
+                  <button class="btn btn-primary small-btn">Buy now</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image mint">
+                <img
+                  src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=800&q=80"
+                  alt="Vegetable chopper"
+                />
+              </div>
+              <div class="product-body">
+                <div class="product-tag">Kitchen utility</div>
+                <h3>Vegetable & Fruit Chopper with Handle</h3>
+                <div class="price-row">
+                  <span class="price">₹164</span>
+                  <span class="rating">★ 4.4</span>
+                </div>
+                <div class="product-actions">
+                  <button class="btn light-btn">Add to cart</button>
+                  <button class="btn btn-primary small-btn">Buy now</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image pink">
+                <img
+                  src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80"
+                  alt="Kitchen microfiber towel bundle"
+                />
+              </div>
+              <div class="product-body">
+                <div class="product-tag">Cleaning kit</div>
+                <h3>Microfiber Cleaning Cloth Bundle</h3>
+                <div class="price-row">
+                  <span class="price">₹249</span>
+                  <span class="rating">★ 4.1</span>
+                </div>
+                <div class="product-actions">
+                  <button class="btn light-btn">Add to cart</button>
+                  <button class="btn btn-primary small-btn">Buy now</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image sky">
+                <img
+                  src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&w=800&q=80"
+                  alt="Household utility product"
+                />
+              </div>
+              <div class="product-body">
+                <div class="product-tag">Home essentials</div>
+                <h3>Multi-Purpose Kitchen Cleaning Pack</h3>
+                <div class="price-row">
+                  <span class="price">₹350</span>
+                  <span class="rating">★ 4.0</span>
+                </div>
+                <div class="product-actions">
+                  <button class="btn light-btn">Add to cart</button>
+                  <button class="btn btn-primary small-btn">Buy now</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="categories" class="section alt-bg">
+        <div class="container">
+          <div class="section-head center">
+            <span class="eyebrow dark">Shop by category</span>
+            <h2>Everything you need for a clean, efficient kitchen.</h2>
+          </div>
+
+          <div class="category-grid">
+            <div class="category-card">
+              <span class="category-icon">🍽️</span>
+              <h3>Kitchen Tools</h3>
+              <p>Choppers, peelers, prep tools and storage essentials.</p>
+            </div>
+            <div class="category-card">
+              <span class="category-icon">🧽</span>
+              <h3>Microfiber Cloths</h3>
+              <p>Cleaning cloths for home, cars, kitchens, and workspaces.</p>
+            </div>
+            <div class="category-card">
+              <span class="category-icon">🏠</span>
+              <h3>Home Care</h3>
+              <p>Useful day-to-day items for a tidy and efficient home.</p>
+            </div>
+          </div>
         </div>
       </section>
 
       <section id="about" class="section">
-        <div class="container two-column">
-          <div>
-            <p class="eyebrow dark">About Us</p>
-            <h2>Built on trust, service, and steady supply.</h2>
-          </div>
-          <div>
+        <div class="container features-wrap">
+          <div class="feature-copy">
+            <span class="eyebrow dark">Why choose us</span>
+            <h2>Reliable products with practical value for everyday use.</h2>
             <p>
-              Ganpati Traders is dedicated to offering dependable trading solutions
-              that help businesses and customers meet their sourcing needs with
-              confidence. We combine product quality, practical service, and a
-              commitment to timely support.
+              Ganpati Traders focuses on quality, affordability, and convenience — helping buyers
+              find the essentials they need without compromise.
             </p>
           </div>
-        </div>
-      </section>
 
-      <section id="products" class="section alt-bg">
-        <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow dark">Our Focus</p>
-            <h2>Products and solutions designed for everyday business needs.</h2>
-          </div>
-
-          <div class="card-grid">
-            <article class="info-card">
-              <div class="icon">01</div>
-              <h3>Industrial Essentials</h3>
-              <p>Reliable supply for day-to-day operational requirements and business continuity.</p>
-            </article>
-            <article class="info-card">
-              <div class="icon">02</div>
-              <h3>Construction Materials</h3>
-              <p>Quality-focused offerings to support building and infrastructure requirements.</p>
-            </article>
-            <article class="info-card">
-              <div class="icon">03</div>
-              <h3>Household Goods</h3>
-              <p>Practical everyday products for homes, stores, and routine commercial needs.</p>
-            </article>
-            <article class="info-card">
-              <div class="icon">04</div>
-              <h3>Packaging & Storage</h3>
-              <p>Efficient and dependable solutions for safe storage, transport, and handling.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="why-us" class="section">
-        <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow dark">Why Choose Us</p>
-            <h2>Simple, practical service built around your priorities.</h2>
-          </div>
-
-          <div class="feature-grid">
-            <div class="feature">
-              <h3>Trusted Relationships</h3>
-              <p>We value long-term partnerships built on consistency, communication, and reliability.</p>
+          <div class="feature-list">
+            <div class="feature-item">
+              <strong>Quality-first</strong>
+              <span>Practical products made for everyday performance.</span>
             </div>
-            <div class="feature">
-              <h3>Competitive Value</h3>
-              <p>Balanced pricing and dependable quality help you stay efficient and focused on growth.</p>
+            <div class="feature-item">
+              <strong>Affordable pricing</strong>
+              <span>Competitive rates for individual and bulk buyers.</span>
             </div>
-            <div class="feature">
-              <h3>Responsive Service</h3>
-              <p>Quick communication and flexible support keep your purchasing decisions smooth and timely.</p>
+            <div class="feature-item">
+              <strong>Fast response</strong>
+              <span>Quick support through email and direct business enquiry.</span>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="cta-band">
-        <div class="container cta-wrap">
+      <section id="offers" class="promo-band">
+        <div class="container promo-box">
           <div>
-            <p class="eyebrow">Need a dependable supplier?</p>
-            <h2>Let’s talk about your requirements.</h2>
+            <span class="eyebrow">Wholesale supply</span>
+            <h2>Need bulk quantities for your store or business?</h2>
           </div>
-          <a class="btn btn-primary" href="mailto:info@ganpatitraders.com">Contact Us</a>
+          <a class="btn btn-primary" href="mailto:info@ganpatitraders.com">Enquire now</a>
         </div>
       </section>
     </main>
@@ -177,19 +262,37 @@
     <footer id="contact" class="site-footer">
       <div class="container footer-grid">
         <div>
-          <h3>Ganpati Traders</h3>
-          <p>Trusted trading solutions with a focus on quality, service, and value.</p>
+          <div class="brand footer-brand">
+            <div class="brand-mark">G</div>
+            <div>
+              <span class="brand-name">Ganpati Traders</span>
+            </div>
+          </div>
+          <p>Kitchen essentials, microfiber products, and practical home-use solutions for everyday needs.</p>
         </div>
+
         <div>
-          <h4>Contact</h4>
+          <h3>Quick links</h3>
+          <ul>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Contact</h3>
           <ul>
             <li><a href="mailto:info@ganpatitraders.com">info@ganpatitraders.com</a></li>
-            <li>Business enquiries</li>
+            <li>Bulk order enquiries</li>
           </ul>
         </div>
       </div>
-      <div class="container footer-bottom">
-        <p>© 2025 Ganpati Traders. All rights reserved.</p>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <span>© 2025 Ganpati Traders. All rights reserved.</span>
+        </div>
       </div>
     </footer>
   </body>
